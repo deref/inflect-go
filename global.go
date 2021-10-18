@@ -5,6 +5,10 @@ var DefaultInflector = NewInflector()
 func init() {
 	DefaultInflector.AddAcronym("id")
 	DefaultInflector.AddAcronym("cpu")
+	DefaultInflector.AddAcronym("url")
+	DefaultInflector.AddAcronym("uri")
+	DefaultInflector.AddAcronym("http")
+	DefaultInflector.AddAcronym("html")
 }
 
 // KebabToPublic converts a kebab-case string to a PublicGoIdentifier.
